@@ -1380,7 +1380,8 @@ op.exportSymbol = function (opPath, object) {
 
         if (fields) {
             for (var i = 0; i < fields.length; i++) {
-                expression = expression.replace(fields[i].name, fields[i].value);
+                var regex = new RegExp(fields[i].name, "gi");
+                expression = expression.replace(regex, fields[i].value);
             }
         }
 
