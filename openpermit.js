@@ -1,5 +1,5 @@
 ﻿// OpenPermit JavaScript library v0.3.0
-// (c) ePermitHub - http://www.epermithub.org/openpermit.html
+// (c) 2015 OpenPermit Foundation, Inc
 // License: MIT (http://www.opensource.org/licenses/mit-license.php)
 var op = typeof op !== 'undefined' ? op : {};
 
